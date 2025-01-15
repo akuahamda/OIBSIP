@@ -1,0 +1,142 @@
+body{
+  background-color: rgb(11, 32, 39);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+.container{ 
+    width: 90%;
+    margin: 0 auto;
+}
+/*nav-bar*/
+.nav-bar{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+.social a img{
+    width: 20px;
+    gap: 30px;
+}
+.nav{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px;
+}
+.nav p{ 
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(122, 96, 39, 0.74);
+}
+.links nav{ 
+    display: flex;
+    gap: 25px;
+    
+}
+.links nav a{ 
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+/*hero-section*/
+.hero-section{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.hero-section h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.hero-section p{ 
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.hero-section img{ 
+    width: 600px;
+}
+.hero-section button{ 
+    padding: 15px;
+    background-color: rgba(190, 180, 29, 0.76);
+    border-radius: 8px;
+    border: none;
+    color: black;
+    font-size: 25px;
+}
+/*about-section*/
+#header{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 40px;
+
+}
+.main-banner{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.main-banner img{
+    width: 500px;
+    border-radius: 10px 5px 5px 10px;
+}
+.main-banner h3{ 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: rgba(137, 161, 28, 0.623);
+}
+.main-banner p{ 
+    font-size: 20px;
+    line-height: 4ch;
+}
+/*project-section*/
+.project-section{ 
+    padding: 40px 0;
+}
+.project-section h1{ 
+    text-align: center;
+    color: rgba(137, 161, 28, 0.623);
+}
+.project-section p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.project-img{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+    overflow: hidden;
+    height: fit-content;
+    gap: 10px;
+    
+}
+.project-img img{ 
+    width: 100%;
+    border-radius: 5px;
+}
+a{ 
+    text-decoration: none;
+    color: white;
+}
